@@ -1,0 +1,5 @@
+vim.keymap.set("n", "<leader>pf", ":Telescope find_files<CR>")
+vim.keymap.set("n", "<leader>ps", ":Telescope live_grep<CR>")
+vim.keymap.set("n", "<leader>fr", ":Telescope oldfiles<CR>")
+vim.keymap.set("n", "<leader>pg", ":Telescope git_files<CR>")
+vim.keymap.set("n", "<leader>bb", ":Telescope buffers<CR>")

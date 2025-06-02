@@ -1,0 +1,10 @@
+--vim.opt.termguicolors = true  --bufferline
+--require("bufferline").setup{
+--    options = {
+--        separator_style = "slant"
+--    }
+ --   highlights = {
+ --       fill = { bg = '#181825' },
+ --       background = { bg = '#1a1b26' },
+ --   }
+--} --bufferline
