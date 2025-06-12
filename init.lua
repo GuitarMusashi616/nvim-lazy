@@ -2,6 +2,7 @@ require("keymaps")
 require("options")  -- load options before config.lazy
 require("config.lazy")
 require("after")
+require("config.lsp")
 
 -- vim.cmd([[colorscheme gruvbox]])
 
