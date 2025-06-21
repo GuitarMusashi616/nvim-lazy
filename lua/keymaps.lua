@@ -18,7 +18,7 @@ vim.keymap.set("n", "<leader>bd", ":bd<cr>")
 
 -- yank & paste
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
-vim.keymap.set({"n", "v"}, "<leader>p", [["+p]])
+-- vim.keymap.set({"n", "v"}, "<leader>p", [["+p]])
 
 -- windows
 vim.keymap.set("n", "<leader>wv", "<c-w>v")
@@ -33,5 +33,5 @@ vim.keymap.set("n", "<leader>wd", "<c-w>d")
 vim.keymap.set("n", "<c-d>", "yyp")
 vim.keymap.set("v", "ae", "<ESC>ggVG")
 vim.keymap.set("n", "feD", ":e ~/.config/nvim/lua/keymaps.lua<cr>")
-
+vim.keymap.set("i", "<c-h>", "<c-w>")
 
